@@ -1,0 +1,25 @@
+# Kompilate
+/namaz
+/namaz-*
+/dist/
+*.exe
+*.so
+*.dylib
+
+# Go-Test- und Profiling-Artefakte
+*.test
+*.out
+coverage.txt
+/vendor/
+
+# Editor / Betriebssystem
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
+
+# Lokale Werkzeug-Konfiguration
+.claude/settings.local.json
+.env
+.env.local
